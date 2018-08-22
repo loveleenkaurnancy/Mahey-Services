@@ -17,8 +17,8 @@ include("header.php");
             <div class="col-xs-12">
                 <div class="wrap-breadcrumb clearfix">
                     <ol class="breadcrumb">
-                        <li><a href="javascript:void(0);"><i class="icon stroke icon-House"></i></a></li>
-                        <li class="active">About Us</li>
+                        <li><a href="home"><i class="icon stroke icon-House"></i></a></li>
+                        <li class="active">About</li>
                     </ol>
                 </div>
             </div>
@@ -72,7 +72,7 @@ include("header.php");
                         </li>
                         <li class="advantages__item">
                             <span class="advantages__icon decor decor_mod-a"><i class="icon stroke icon-DesktopMonitor"></i></span>
-                            <span class="advantages__title ui-title-inner">ONLINE Sevices</span>
+                            <span class="advantages__title ui-title-inner">ONLINE Services</span>
                         </li>
                     </ul>
                 </div><!-- end col -->

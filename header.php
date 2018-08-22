@@ -94,7 +94,7 @@
                 </div>
                 <div id="navbar-collapse-1" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
-                    <li class="dropdown"><a href="index.php">Home</a></li>
+                    <li class="dropdown"><a href="home">Home</a></li>
                     
                     <!-- <li class="dropdown"> <a href="courses-1.html">Water Purifiers</a>
                       <ul role="menu" class="dropdown-menu">
@@ -115,18 +115,18 @@
                       </ul>
                     </li> -->
 
-                    <li class="dropdown"> <a href="#">Water Purifiers<!-- <span class="nav-subtitle">What We Offers</span> --></a>
-                      <ul role="menu" class="dropdown-menu">
+                    <li class="dropdown"> <a href="products">Products<!-- <span class="nav-subtitle">What We Offers</span> --></a>
+                      <!-- <ul role="menu" class="dropdown-menu">
                         <li><a href="#">RO Water Purifiers</a></li>
                         <li><a href="#">UV Water Purifiers</a></li>
-                      </ul>
+                      </ul> -->
                     </li>
 
-                    <li class="dropdown"> <a href="javascript:void(0);">Services</a>
-                      <ul role="menu" class="dropdown-menu">
+                    <li class="dropdown"> <a href="services">Services</a>
+                      <!-- <ul role="menu" class="dropdown-menu">
                         <li><a href="about.html">Installation</a> </li>
                         <li><a href="instructors.html">Reparation</a> </li>
-                      </ul>
+                      </ul> -->
                     </li>
 
                     <!-- <li class="dropdown"> <a href="javascript:void(0);">BLOG</a>
@@ -136,9 +136,9 @@
                       </ul>
                     </li> -->
 
-                    <li class="dropdown"><a href="about.php">About</a></li>
+                    <li class="dropdown"><a href="about">About</a></li>
 
-                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="contact">CONTACT</a></li>
                   </ul>
                 </div>
               </nav>

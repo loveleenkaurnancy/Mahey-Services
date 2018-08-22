@@ -35,7 +35,7 @@ if(isset($_POST["submit"]))
 							<div class="col-xs-12">
 								<div class="wrap-breadcrumb clearfix">
 									<ol class="breadcrumb">
-										<li><a href="javascript:void(0);"><i class="icon stroke icon-House"></i></a></li>
+										<li><a href="home"><i class="icon stroke icon-House"></i></a></li>
 										<li class="active">CONTACT Us</li>
 									</ol>
 								</div>
@@ -55,18 +55,18 @@ if(isset($_POST["submit"]))
 									<!-- <p>Follow us on Social Media</p> -->
 									<ul class="list-social list-inline">
 										<li>
-											<a href="javascript:void(0);"><i class="icon fa fa-facebook"></i></a>
+											<a href="https://www.facebook.com/" target="_blank"><i class="icon fa fa-facebook"></i></a>
 										</li>
 										<li>
-											<a href="javascript:void(0);"><i class="icon fa fa-twitter"></i></a>
+											<a href="https://www.twitter.com" target="_blank"><i class="icon fa fa-twitter"></i></a>
 										</li>
 										<li>
-											<a href="javascript:void(0);"><i class="icon fa fa-google-plus"></i></a>
+											<a href="https://plus.google.com/" target="_blank"><i class="icon fa fa-google-plus"></i></a>
 										</li>
 										<li>
-											<a href="javascript:void(0);"><i class="icon fa fa-linkedin"></i></a>
+											<a href="https://www.linkedin.com" target="_blank"><i class="icon fa fa-linkedin"></i></a>
 										</li>
-										<li>
+										<!-- <li>
 											<a href="javascript:void(0);"><i class="icon fa fa-behance"></i></a>
 										</li>
 										<li>
@@ -74,9 +74,9 @@ if(isset($_POST["submit"]))
 										</li>
 										<li>
 											<a href="javascript:void(0);"><i class="icon fa fa-whatsapp"></i></a>
-										</li>
+										</li> -->
 										<li>
-											<a href="javascript:void(0);"><i class="icon fa fa-youtube-play"></i></a>
+											<a href="https://www.youtube.com" target="_blank"><i class="icon fa fa-youtube-play"></i></a>
 										</li>
 									</ul>
 									<ul class="list-contacts list-unstyled">
@@ -114,7 +114,7 @@ if(isset($_POST["submit"]))
 
 							<div class="col-md-7">
 								<div class="section_map">
-									<h2 class="ui-title-inner decor decor_mod-a">OUR LOCATION</h2>
+									<h2 class="ui-title-inner decor decor_mod-a">LOCATE US</h2>
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13635.537279354028!2d75.54441178206262!3d31.306942253049645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5ae01379de91%3A0xcb3ff12ddd4032f0!2sModel+House%2C+Jalandhar%2C+Punjab!5e0!3m2!1sen!2sin!4v1534695120737" width="670" height="505" frameborder="0" style="border:0;display: block;max-width: 100%;" allowfullscreen></iframe>
 									
 								</div>

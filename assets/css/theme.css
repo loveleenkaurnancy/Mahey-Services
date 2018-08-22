@@ -448,8 +448,8 @@ img.pull-left {
 	background-color: #1f1f1f;
 }
 .footer-inner {
-	padding-top: 48px;
-	padding-bottom: 53px;
+	padding-top: 10px;
+	padding-bottom: 23px;
 }
 
 .footer-title {
@@ -1182,7 +1182,7 @@ li.advantages__item {
 }
 .staff__inner {
 	margin-top: 2px;
-	padding: 40px 25px 0;
+	padding: 20px 25px 20px;
 	border-top: 2px solid #3b99d7;
 	background-color: #fff;
 }

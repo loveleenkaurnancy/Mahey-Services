@@ -13,7 +13,7 @@ include("header.php");
               <div class="main-slider__inner text-center">
                 <div class="main-slider__title" >PURE WATER</div>
                 <div class="main-slider__subtitle ">ALL OVER THE HOUSE</div>
-                <a class="main-slider__btn btn btn-warning btn-effect" href="contact.php">CONTACT US</a> </div>
+                <a class="main-slider__btn btn btn-warning btn-effect" href="contact">CONTACT US</a> </div>
             </div>
           </div>
           <div class="sp-slide"> <img class="sp-image" src="assets/media/main-slider/2.jpg"
@@ -24,7 +24,7 @@ include("header.php");
               <div class="main-slider__inner">
                 <div class="main-slider__title" >OUR FILTERS</div>
                 <div class="main-slider__subtitle ">MAKE YOUR WATER CLEAN</div>
-                <a class="main-slider__btn btn btn-warning btn-effect" href="contact.php">CONTACT US</a> </div>
+                <a class="main-slider__btn btn btn-warning btn-effect" href="contact">CONTACT US</a> </div>
             </div>
           </div>
         </div>
@@ -42,12 +42,12 @@ include("header.php");
                 <div class="ui-subtitle-block ui-subtitle-block_mod-b">Premium Quality Products with Large Sales and Service Network</div>
               </div>
               <div class="posts-wrap">
-                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="2s">
+                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="0.5s">
                   <div class="entry-media">
                     <div class="entry-thumbnail"> <a href="javascript:void(0);" ><img class="img-responsive" src="assets/media/posts/250x250/ro water purifier.jpg" width="250" height="250" alt="Foto"/></a> </div>
                     <div class="entry-hover">
                       <!-- <div class="box-comments"> <a href="javascript:void(0);"><i class="icon stroke icon-Message"></i>25</a> <a href="javascript:void(0);"><i class="icon stroke icon-User"></i>65</a> </div> -->
-                      <a href="javascript:void(0);" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
+                      <a href="products" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
                   </div>
                   <div class="entry-main">
                     <!-- <div class="entry-meta"> <span class="entry-autor"> <span>By </span> <a class="post-link" href="javascript:void(0);">ANS niversity</a> </span> <span class="entry-date"><a href="javascript:void(0);">Dec 16, 2015</a></span> </div> -->
@@ -60,30 +60,30 @@ include("header.php");
                   </div>
                 </article>
                 <!-- end post -->
-                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="2s" data-wow-delay=".5s">
+                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="0.5s" data-wow-delay=".2s">
                   <div class="entry-media">
                     <div class="entry-thumbnail"> <a href="javascript:void(0);" ><img class="img-responsive" src="assets/media/posts/250x250/commercial ro purifer.jpg" width="250" height="250" alt="Foto"/></a> </div>
                     <div class="entry-hover">
                       <!-- <div class="box-comments"> <a href="javascript:void(0);"><i class="icon stroke icon-Message"></i>25</a> <a href="javascript:void(0);"><i class="icon stroke icon-User"></i>65</a> </div> -->
-                      <a href="javascript:void(0);" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
+                      <a href="products" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
                   </div>
                   <div class="entry-main">
                     <!-- <div class="entry-meta"> <span class="entry-autor"> <span>By </span> <a class="post-link" href="javascript:void(0);">John Milton</a> </span> <span class="entry-date"><a href="javascript:void(0);">Dec 16, 2015</a></span> </div> -->
                     <h3 class="entry-title ui-title-inner decor decor_mod-b"><a href="javascript:void(0);">Commercial RO Purifer</a></h3>
                     <div class="entry-content">
-                      <p>•  Optional Hydrostatic Storage Tank</p>
+                      <p>•  Hydrostatic Storage Tank</p>
                       <p>•  High Purification Capacity </p>
                       <p>•  Double Purification</p>
                     </div>
                   </div>
                 </article>
                 <!-- end post -->
-                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="0.5s" data-wow-delay=".4s">
                   <div class="entry-media">
                     <div class="entry-thumbnail"> <a href="javascript:void(0);" ><img class="img-responsive" src="assets/media/posts/250x250/uv water purifier.jpg" width="250" height="250" alt="Foto"/></a> </div>
                     <div class="entry-hover">
                       <!-- <div class="box-comments"> <a href="javascript:void(0);"><i class="icon stroke icon-Message"></i>25</a> <a href="javascript:void(0);"><i class="icon stroke icon-User"></i>65</a> </div> -->
-                      <a href="javascript:void(0);" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
+                      <a href="products" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
                   </div>
                   <div class="entry-main">
                     <!-- <div class="entry-meta"> <span class="entry-autor"> <span>By </span> <a class="post-link" href="javascript:void(0);">ANS niversity</a> </span> <span class="entry-date"><a href="javascript:void(0);">Dec 16, 2015</a></span> </div> -->
@@ -96,19 +96,19 @@ include("header.php");
                   </div>
                 </article>
                 <!-- end post -->
-                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="2s" data-wow-delay="1.5s">
+                <article class="post post_mod-a clearfix wow zoomIn" data-wow-duration="0.5s" data-wow-delay=".6s">
                   <div class="entry-media">
                     <div class="entry-thumbnail"> <a href="javascript:void(0);" ><img class="img-responsive" src="assets/media/posts/250x250/under sink purifier.jpg" width="250" height="250" alt="Foto"/></a> </div>
                     <div class="entry-hover">
                       <!-- <div class="box-comments"> <a href="javascript:void(0);"><i class="icon stroke icon-Message"></i>25</a> <a href="javascript:void(0);"><i class="icon stroke icon-User"></i>65</a> </div> -->
-                      <a href="javascript:void(0);" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
+                      <a href="products" class="post-btn btn btn-primary btn-effect">READ MORE</a> </div>
                   </div>
                   <div class="entry-main">
                     <!-- <div class="entry-meta"> <span class="entry-autor"> <span>By </span> <a class="post-link" href="javascript:void(0);">John Milton</a> </span> <span class="entry-date"><a href="javascript:void(0);">Dec 16, 2015</a></span> </div> -->
                     <h3 class="entry-title ui-title-inner decor decor_mod-b"><a href="javascript:void(0);">Under Sink Purifier</a></h3>
                     <div class="entry-content">
                       <p>•  Saves Counter-top Space</p>
-                      <p>•  High Flow Rate &amp; Hydrostatic Tank</p>
+                      <p>•  High Flow Rate &amp; Tank</p>
                       <p>•  Doesn’t Spill Water</p>
                     </div>
                   </div>
@@ -130,7 +130,7 @@ include("header.php");
           <div class="section_mod-a__inner">
             <div class="row">
               <div class="col-md-8">
-                <section class="section-advantages wow bounceInLeft" data-wow-duration="2s">
+                <section class="section-advantages wow bounceInLeft" data-wow-duration=".5s">
                   <h2 class="ui-title-block ui-title-block_mod-a">Protects your family with 100% pure and safe Drinking Water! </h2>
                   <div class="ui-subtitle-block ui-subtitle-block_mod-a">World's Best Water Purifiers</div>
                   <ul class="advantages advantages_mod-a list-unstyled">
@@ -173,7 +173,7 @@ include("header.php");
               </div>
               <!-- end col -->
               <div class="col-md-4">
-                <section class="find-course find-course_mod-a wow bounceInRight" data-wow-duration="2s">
+                <section class="find-course find-course_mod-a wow bounceInRight" data-wow-duration=".5s">
                   <h2 class="find-course__title"><i class="icon stroke icon-Search"></i>Request For Free Demo</h2>
                   <form class="find-course__form" action="http://html.templines.com/academica/get">
                     <div class="form-group">
@@ -235,7 +235,7 @@ include("header.php");
         <div class="row">
           <div class="border-decor_top">
             <div class="col-md-6">
-              <section class="section-default wow bounceInLeft" data-wow-duration="2s">
+              <section class="section-default wow bounceInLeft" data-wow-duration=".5s">
                 <h2 class="ui-title-block">Think <strong>Purity</strong></h2>
                 <div class="slider-reviews owl-carousel owl-theme owl-theme_mod-c enable-owl-carousel"
 												data-single-item="true"
@@ -262,7 +262,7 @@ include("header.php");
             <!-- end col -->
             
             <div class="col-md-6">
-              <section class="section-default wow bounceInRight" data-wow-duration="2s">
+              <section class="section-default wow bounceInRight" data-wow-duration=".5s">
                 <h2 class="ui-title-block">Why <strong>Mahey Services ?</strong></h2>
                 <div class="panel-group accordion accordion" id="accordion-1">
                   <div class="panel panel-default">
@@ -316,7 +316,7 @@ include("header.php");
 
       
       
-      <section class="section-subscribe wow fadeInUp" data-wow-duration="2s">
+      <section class="section-subscribe wow fadeInUp" data-wow-duration="1s">
         <div class="subscribe">
           <div class="container">
             <div class="row">

@@ -1,13 +1,13 @@
   
-    <footer class="footer wow fadeInUp" data-wow-duration="2s">
+    <footer class="footer wow fadeInUp" data-wow-duration="0.2">
       <div class="container">
         <div class="footer-inner border-decor_top">
           <div class="row">
-            <div class="col-lg-3 col-sm-3">
+            <div class="col-lg-4 col-sm-4">
               <section class="footer-section">
                 <h3 class="footer-title">ABOUT US</h3>
                 <a href="javascript:void(0);"><img class="footer-logo img-responsive" src="assets/img/mahey services logo.png" height="50" width="195" alt="Logo"></a>
-                <!-- <div class="footer-info">Fusce eleifend. Donec sapien sed pha seah lusa. Pellentesque lu amus lorem arcu sem per duiac. Vivamus porta. Sed at nisl praesnt blandit mauris vel erat.</div> -->
+                <!-- <div class="footer-info"></div> -->
                 <div class="footer-contacts footer-contacts_mod-a"> <i class="icon stroke icon-Pointer"></i>
                   <address class="footer-contacts__inner">
                   Model House, Jalandhar
@@ -20,48 +20,32 @@
               <!-- end footer-section --> 
             </div>
             <!-- end col -->
-            
-            <div class="col-lg-2 col-sm-3">
+
+
+            <div class="col-lg-4 col-sm-4">
               <section class="footer-section">
-                <h3 class="footer-title">USEFUL LINKS</h3>
+                <h3 class="footer-title">MAHEY SERVICES</h3>
+                <p align="justify"><strong>Mahey Services</strong> has reached a great place by manufacturing and supplying quality combinations of Water Solution Products for industrial as well as household purpose. The wide varieties of our products unified Domestic RO System, Industrial RO System and Water Filtration System are recommended greatly in the general markets. Furthermore, we secure world-class manufacturing facilities that enable us to obtain a large array of products with various features and attributes.</p>
+            </div>
+            <!-- end col -->
+
+            
+            <div class="col-lg-4 col-sm-4">
+              <section class="footer-section" style="margin-left: 100px;">
+                <h3 class="footer-title">QUICK LINKS</h3>
                 <ul class="footer-list list-unstyled">
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Teachers & Staff</a></li>
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Our Latest Courses</a></li>
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Who We Are</a></li>
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Get In Touch</a></li>
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Courses Categories</a></li>
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Support & FAQ’s</a></li>
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Terms & Conditions</a></li>
-                  <li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Privacy Policy</a></li>
+                  <li class="footer-list__item"><a class="footer-list__link" href="products">Products</a></li>
+                  <li class="footer-list__item"><a class="footer-list__link" href="about">Who We Are</a></li>
+                  <li class="footer-list__item"><a class="footer-list__link" href="contact">Get In Touch</a></li>
+                  <li class="footer-list__item"><a class="footer-list__link" href="products">UV Water Purifiers</a></li>
+                  <li class="footer-list__item"><a class="footer-list__link" href="services">Free Demo</a></li>
+                  <li class="footer-list__item"><a class="footer-list__link" href="contact">Support &amp; FAQ’s</a></li>
                 </ul>
               </section>
               <!-- end footer-section --> 
             </div>
             <!-- end col -->
-            
-            <div class="col-lg-3 col-sm-3">
-              <section class="footer-section">
-                <h3 class="footer-title">MAHEY SERVICES</h3>
-                <strong>Mahey Services</strong> has reached a great place by manufacturing and supplying quality combinations of Water Solution Products for industrial as well as household purpose. The wide varieties of our products unified Domestic RO System, Industrial RO System and Water Filtration System are recommended greatly in the general markets.
-            </div>
-            <!-- end col -->
-            
-            <div class="col-lg-4 col-sm-3">
-              <section class="footer-section">
-                <h3 class="footer-title">QUICK CONTACT</h3>
-                <form class="form">
-                  <div class="form-group">
-                    <input class="form-control" type="text" placeholder="Your Name">
-                    <input class="form-control" type="email" placeholder="Email address">
-                    <input class="form-control" type="text" placeholder="Mobile">
-                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-                    <button class="btn btn-primary btn-effect">SEND MESSSAGE</button>
-                  </div>
-                </form>
-              </section>
-              <!-- end footer-section --> 
-            </div>
-            <!-- end col --> 
+                     
           </div>
           <!-- end row --> 
         </div>
