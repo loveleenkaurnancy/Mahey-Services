@@ -1,20 +1,22 @@
 <?php
-include("header.php")
-?>
+include("header.php");
+require("admin/Controllers/config.php");
 
-<?php
 if(isset($_POST["submit"]))
 {
-	require("config.php");
-	$comm = mysqli_query($con,"insert into contact(name, email, message) values('".$_POST['name']."','".$_POST['email']."','".$_POST['message']."')");
-	if($comm)
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$mobile = $_POST['mobile'];
+	$message = $_POST['message'];
+
+	$query = mysqli_query($con,"insert into contact(name, email,mobile, message) values ('$name', '$email', '$mobile', '$message')");
+	if($query)
 	{
-		echo "<script>alert('Successfully Submit')</script>";
+		$msg = "Successfully Submit";
 	}
 	else
 	{
-		echo "<script>alert('NO')</script>";
-		//echo mysql_error($con);
+		echo mysqli_error($con);
 	}
 }
 ?>
@@ -49,6 +51,15 @@ if(isset($_POST["submit"]))
 
 					<div class="container">
 						<div class="row">
+
+						<?php if(isset($msg)){?>
+                		<div class="alert alert-success alert-dismissable fade in">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<br>
+	             			<?php echo $msg; ?>
+                		</div>
+						<?php   } ?>
+						
 							<div class="col-md-5">
 								<section class="section_contacts">
 									<h2 class="ui-title-inner decor decor_mod-a">Get in Touch with us</h2>
@@ -134,16 +145,16 @@ if(isset($_POST["submit"]))
 									<form class="form-contact ui-form" method="post">
 										<div class="row">
 											<div class="col-xs-12">
-												<input class="form-control" id="name" name="name" type="text" placeholder="Full Name" required>
+												<input class="form-control" id="name" name="name" type="text" placeholder="Full Name" required pattern='[A-Za-z \\s]*' title="Enter Characters">
 											</div>
 											<div class="col-md-6">
-												<input class="form-control" id="email" name="email" type="text" placeholder="Email">
+												<input class="form-control" id="email" name="email" type="email" placeholder="Email">
 											</div>
 											<div class="col-md-6">
-												<input class="form-control" id="mobile" name="mobile" type="text" placeholder="Mobile">
+												<input class="form-control" id="mobile" name="mobile" type="text" placeholder="Mobile" required pattern= "[0-9]{10}" title="Enter 10 digit Mobile Number">
 											</div>
 											<div class="col-xs-12">
-												<textarea class="form-control" id="message" name="message" required rows="11"></textarea>
+												<textarea class="form-control" id="message" name="message" placeholder="Message" required rows="11" pattern='[A-Za-z \\s]*' title="Enter Characters"></textarea>
 												<button type="submit" name="submit" class="btn btn-primary btn-effect">SEND NOW</button>
 											</div>
 										</div>

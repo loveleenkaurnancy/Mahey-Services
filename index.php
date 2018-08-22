@@ -1,5 +1,38 @@
 <?php
 include("header.php");
+require("admin/Controllers/config.php");
+
+if(isset($_POST["submit"]))
+{
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$mobile = $_POST['mobile'];
+	$message = $_POST['message'];
+
+	$query = mysqli_query($con,"insert into contact(name, email,mobile, message) values ('$name', '$email', '$mobile', '$message')");
+	if($query)
+	{
+		$msg = "Successfully Submit";
+	}
+	else
+	{
+		echo mysqli_error($con);
+	}
+}
+else if(isset($_POST["submits"]))
+{
+	$email = $_POST['email'];
+
+	$query = mysqli_query($con,"insert into subscribe(email) values ('$email')");
+	if($query)
+	{
+		$msg = "Successfully Submit";
+	}
+	else
+	{
+		echo mysqli_error($con);
+	}
+}
 ?>
     
     <div class="main-content">
@@ -175,12 +208,12 @@ include("header.php");
               <div class="col-md-4">
                 <section class="find-course find-course_mod-a wow bounceInRight" data-wow-duration=".5s">
                   <h2 class="find-course__title"><i class="icon stroke icon-Search"></i>Request For Free Demo</h2>
-                  <form class="find-course__form" action="http://html.templines.com/academica/get">
+                  <form class="find-course__form" method="post">
                     <div class="form-group">
-                      <input class="form-control" type="text" placeholder="Name">
-                      <input class="form-control" type="text" placeholder="Email">
-                      <input class="form-control" type="text" placeholder="Mobile">
-                      <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                      <input class="form-control" id="name" name="name" type="text" placeholder="Full Name" required pattern='[A-Za-z \\s]*' title="Enter Characters">
+                      <input class="form-control" id="email" name="email" type="email" placeholder="Email">
+                      <input class="form-control" id="mobile" name="mobile" type="text" placeholder="Mobile" required pattern= "[0-9]{10}" title="Enter 10 digit Mobile Number">
+                      <textarea class="form-control" id="message" name="message" placeholder="Message" required rows="4" pattern='[A-Za-z \\s]*' title="Enter Characters"></textarea>
                       <!-- <div class="jelect" >
                         <input value="0" type="text" class="jelect-input">
                         <div tabindex="0" role="button" class="jelect-current">All Categories</div>
@@ -214,7 +247,7 @@ include("header.php");
                     </div>
                     <!-- end form-group -->
                     <div class="find-course__wrap-btn">
-                      <button class="btn btn-effect btn-info">Send</button>
+                      <button class="btn btn-effect btn-info" type="submit" name="submit" >Send</button>
                     </div>
                   </form>
                 </section>
@@ -329,9 +362,9 @@ include("header.php");
               </div>
               <!-- end col -->
               <div class="col-sm-6">
-                <form class="subscribe__form" action="http://html.templines.com/academica/get">
-                  <input class="subscribe__input form-control" type="text" placeholder="Your Email address ...">
-                  <button class="subscribe__btn btn btn-success btn-effect">SUBSCRIBE</button>
+                <form class="subscribe__form" method="post">
+                  <input class="subscribe__input form-control" name="email" type="email" required placeholder="Your Email address ...">
+                  <button class="subscribe__btn btn btn-success btn-effect" name="submits" class="submits" >SUBSCRIBE</button>
                 </form>
               </div>
               <!-- end col --> 

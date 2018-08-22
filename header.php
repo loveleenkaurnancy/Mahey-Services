@@ -60,7 +60,7 @@
                 <button class="btn-header btn-effect">House of Purity</button>
                 <span>Protect your Family with <strong>The Most Certified RO Purifier</strong></span> </div>
               <div class="header-login">
-                <a class="header-login__item" href="javascript:void(0);"><i class="icon stroke icon-User"></i>Sign In</a>
+                <a class="header-login__item" href="admin/admin"><i class="icon stroke icon-User"></i>Sign In</a>
                 <!-- <a class="header-login__item" href="javascript:void(0);">Register</a> -->
               </div>
             </div>

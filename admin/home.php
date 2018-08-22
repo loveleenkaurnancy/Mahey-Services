@@ -23,50 +23,40 @@
 
                             <div class="col-md-2">
                                 <div class="thumbnail">
-                                    <div class="caption">
+                                    <a href="conatct">
+                                        <div class="caption">
 
-                                            <img src="images/ic_category.png" align="middle" width="100" height="100">
-                                        <?php
-                                        $query = mysqli_query($con,"select count(*) from teacher");
-                                        $data = mysqli_fetch_array($query);
-                                        echo "<h3 style='text-align: center;'>$data[0]</h3>";
-                                        ?>
-                                            <p style="text-align: center;">Total Teachers</p>
+                                                <img src="images/ic_category.png" align="center" width="100" height="100">
+                                            <?php
+                                            $query = mysqli_query($con,"select count(*) from contact");
+                                            $data = mysqli_fetch_array($query);
+                                            echo "<h3 style='text-align: center;'>$data[0]</h3>";
+                                            ?>
+                                                <p style="text-align: center;">Total Contacts</p>
 
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
 
                             <div class="col-md-2">
                                 <div class="thumbnail">
-                                    <div class="caption">
+                                    <a href="subscribe">
+                                        <div class="caption">
 
-                                        <img src="images/ic_category.png" width="100" height="100">
-                                        <?php
-                                        $query = mysqli_query($con,"select count(*) from student");
-                                        $data = mysqli_fetch_array($query);
-                                        echo "<h3 style='text-align: center;'>$data[0]</h3>";
-                                        ?>
-                                        <p style="text-align: center;">Total Students</p>
+                                            <img src="images/ic_category.png" width="100" height="100">
+                                            <?php
+                                            $query = mysqli_query($con,"select count(*) from subscribe");
+                                            $data = mysqli_fetch_array($query);
+                                            echo "<h3 style='text-align: center;'>$data[0]</h3>";
+                                            ?>
+                                            <p style="text-align: center;">Total Subscribe</p>
 
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="col-md-2">
-                                <div class="thumbnail">
-                                    <div class="caption">
-
-                                        <img src="images/ic_menu.png" width="100" height="100">
-                                        <?php
-                                        $query = mysqli_query($con,"select count(*) from notices");
-                                        $data = mysqli_fetch_array($query);
-                                        echo "<h3 style='text-align: center;'>$data[0]</h3>";
-                                        ?>
-                                        <p style="text-align: center;">Notices</p>
-
-                                    </div>
-                                </div>
-                            </div>
+        
 
 
                         </div>

@@ -49,7 +49,7 @@ if ($_SESSION['email']==""){
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="#" class="site_title"><i class="fa fa-paw"></i> <span>Admin Panel!</span></a>
+                    <a href="#" class="site_title"><i class="fa fa-paw"></i> <span><?php echo  $_SESSION['name'] ?> </span></a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -73,15 +73,15 @@ if ($_SESSION['email']==""){
                     <div class="menu_section">
                         <h3>Admin Panel</h3>
                         <ul class="nav side-menu">
-                            <li><a href="home.php"><i class="fa fa-home"></i> Dashboard </a></li>
-                            <li><a href="addteacher.php"><i class="fa fa-edit"></i>  Add Teacher </a></li>
+                            <li><a href="home"><i class="fa fa-home"></i> Dashboard </a></li>
+                            <!-- <li><a href="addteacher.php"><i class="fa fa-edit"></i>  Add Teacher </a></li>
                             <li><a href="add_block.php"><i class="fa fa-edit"></i>  Add Block </a></li>
                             <li><a href="add_class.php"><i class="fa fa-edit"></i> Add Class </a></li>
                             <li><a href="add_subject.php"><i class="fa fa-edit"></i>Add Subject</a></li>
                             <li><a href="add_student.php"><i class="fa fa-edit"></i> Add Student </a></li>
-                            <li><a href="assign_class.php"><i class="fa fa-edit"></i> Assign Class </a> </li>
-                            <li><a href="notices.php"><i class="fa fa-edit"></i> Notices </a></li>
-                            <li><a href="feedback.php"><i class="fa fa-edit"></i> Feedback </a> </li>
+                            <li><a href="assign_class.php"><i class="fa fa-edit"></i> Assign Class </a> </li> -->
+                            <li><a href="contact"><i class="fa fa-edit"></i> Contact </a></li>
+                            <li><a href="subscribe"><i class="fa fa-edit"></i> Subscribe </a> </li>
 
                         </ul>
                     </div>
@@ -114,6 +114,7 @@ if ($_SESSION['email']==""){
                                 <span class=" fa fa-angle-down"></span>
                             </a>
                             <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                <li><a href="updatepassword"><i class="fa fa-sign-out pull-right"></i>Change Password</a></li>
                                 <li><a href="logout.php"><i class="fa fa-sign-out pull-right"></i> Log
                                         Out</a></li>
                             </ul>

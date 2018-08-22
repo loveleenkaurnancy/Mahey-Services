@@ -13,7 +13,7 @@
             $_SESSION['name']=$row[0];
             $_SESSION['email']=$row[1];
 
-            header("location:home.php");
+            header("location:home");
         }
         else{
             $msg = "<strong>Alert!</strong> Wrong Username/Password";
@@ -55,17 +55,15 @@
             <form method="post" name="login">
               <h1>Login Form</h1>
               <div>
-                <input type="email" name="email" id="email" class="form-control" placeholder="Email" />
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email" />
               </div>
               <div>
-                <input type="password" name="password" id="password" class="form-control" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" />
+                <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password" />
               </div>
               <div>
                   <button type="submit" name="submit" class="btn btn-default">Log in</button>
               </div>
-                <div>
-                    <a href="teacherlogin.php" style="margin: 10px;">Teacher Login Here</a>
-                </div>
+      
 
                     <?php if(isset($msg)){?>
                 <div class="alert alert-danger alert-dismissable fade in">
