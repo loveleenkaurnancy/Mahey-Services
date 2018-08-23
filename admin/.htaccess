@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteRule ^admin index.php [NC,L]
+RewriteRule ^login index.php [NC,L]
 RewriteRule ^home home.php [NC,L]
 RewriteRule ^contact contact.php [NC,L]
 RewriteRule ^subscribe subscribe.php [NC,L]

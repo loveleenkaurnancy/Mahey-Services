@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from html.templines.com/academica/home-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 May 2017 17:29:06 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
@@ -60,7 +58,7 @@
                 <button class="btn-header btn-effect">House of Purity</button>
                 <span>Protect your Family with <strong>The Most Certified RO Purifier</strong></span> </div>
               <div class="header-login">
-                <a class="header-login__item" href="admin/admin"><i class="icon stroke icon-User"></i>Sign In</a>
+                <a class="header-login__item" href="admin/login"><i class="icon stroke icon-User"></i>Sign In</a>
                 <!-- <a class="header-login__item" href="javascript:void(0);">Register</a> -->
               </div>
             </div>

@@ -18,6 +18,56 @@ if(isset($_POST["submit"]))
 	{
 		echo mysqli_error($con);
 	}
+
+
+
+
+$to = "maheyservices@gmail.com";
+$subject = "Contact Form ";
+
+$message = "
+<html>
+<head>
+<title>Contact Form</title>
+</head>
+<body>
+<table>
+<tr>
+<th>Name</th>
+<td>$name</td>
+</tr>
+
+<tr>
+<th>Email</th>
+<td>$email</td>
+</tr>
+
+<tr>
+<th>Mobile</th>
+<td>$mobile</td>
+</tr>
+
+<tr>
+<th>Message</th>
+<td>$message</td>
+</tr>
+
+</body>
+</html>
+";
+
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: '. $email . "\r\n";
+//$headers .= 'From: $email\r\nReply-to: $email'."\r\n";
+
+mail($to,$subject,$message,$headers);
+
+
+
 }
 ?>
 
@@ -55,7 +105,6 @@ if(isset($_POST["submit"]))
 						<?php if(isset($msg)){?>
                 		<div class="alert alert-success alert-dismissable fade in">
 							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-							<br>
 	             			<?php echo $msg; ?>
                 		</div>
 						<?php   } ?>
